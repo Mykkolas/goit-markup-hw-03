@@ -161,6 +161,7 @@ address {
     text-transform: capitalize;
     color: #2e2f42;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
 }
 
 .second-sect {
@@ -189,8 +190,8 @@ address {
     margin-right: 24px;
 }
 
-.values-element:first-child {
-    width: calc((100% -72px)/4);
+.values-list:first-child {
+    width: calc((100% - 72px) / 4);
 }
 
 .values-element:last-child {
@@ -204,6 +205,7 @@ address {
     color: #2e2f42;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .infos-p {
@@ -211,14 +213,31 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .team-sect {
+    padding: 120px 0;
     background-color: #f4f4fd;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-list:first-child {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-info {
     background-color: #fff;
+}
+
+.team-container {
+    padding: 32px 0;
+    text-align: center;
 }
 
 
