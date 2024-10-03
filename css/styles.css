@@ -163,6 +163,10 @@ address {
     letter-spacing: 0.02em;
 }
 
+.second-sect {
+    padding: 120px 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -176,12 +180,30 @@ address {
     overflow: hidden;
 }
 
+.values-list {
+    display: flex;
+    gap: 24px;
+}
+
+.values-element {
+    margin-right: 24px;
+}
+
+.values-element:first-child {
+    width: calc((100% -72px)/4);
+}
+
+.values-element:last-child {
+    margin-right: 0;
+}
+
 .third-h {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .infos-p {
