@@ -186,17 +186,11 @@ address {
     gap: 24px;
 }
 
-.values-list:first-child {
+.values-element {
     width: calc((100% - 72px) / 4);
 }
 
 
-
-
-
-.values-element:last-child {
-    margin-right: 0;
-}
 
 .third-h {
     font-weight: 500;
